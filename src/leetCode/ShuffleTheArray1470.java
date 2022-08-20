@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class ShuffleTheArray1470 {
     public static void main(String[] args) {
     SolutionShuffle s = new SolutionShuffle();
-    int[] array = {1,2,3,4};
-        System.out.println(Arrays.toString(s.shuffle(array,2)));
+    int[] array = {1,2,3,4}; // salida 1324
+    System.out.println(Arrays.toString(s.shuffle(array,2)));
     }
 }
 class SolutionShuffle{
