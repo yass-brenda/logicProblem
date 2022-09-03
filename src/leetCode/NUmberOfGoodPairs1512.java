@@ -1,10 +1,12 @@
 package leetCode;
 
+import java.util.Arrays;
+
 public class NUmberOfGoodPairs1512 {
     public static void main(String[] args) {
         SolutionNumberOfGoodPairs s = new SolutionNumberOfGoodPairs();
         int[] array = {1,1,1,1};
-        System.out.println(s.numIdenticalPairs(array));
+        System.out.println((s.numIdenticalPairs(array)));
     }
 }
 
